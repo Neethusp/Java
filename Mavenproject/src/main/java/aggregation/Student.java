@@ -5,16 +5,16 @@ public class Student {
 	int age;
 	int rollno;
 	
-	Address adr;
+	Address adr;    //reference 
 	
-	public Student(String name,int age,int rollno,Address adr)
+	public Student(String name,int age,int rollno,Address adr)   //constructor -object initialize
 	{
 		this.name= name;
 		this.age= age;
 		this.rollno= rollno;
 		this.adr= adr;
 	}
-	public void display()
+	public void display()            
 	{
 		
 		System.out.println("Student name: "+ name);

@@ -11,6 +11,7 @@ public class Football extends Sports
 	public static void main(String[] args) 
 	{
 		Sports s;
+		
 		s= new Cricket();
 		s.play();
 		s= new Hockey();
